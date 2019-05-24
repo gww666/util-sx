@@ -9,7 +9,7 @@
 &nbsp;&nbsp;  
 ### 日期类
 <div name="date1">时间戳格式化为yy-mm-dd hh-mm-ss格式</div>
-```javascript
+  ```javascript
 const formatDate = (time) => {
     if (typeof time === "string") time = Number(time);
     let date = new Date(time);
@@ -25,7 +25,7 @@ const formatDate = (time) => {
 &nbsp;&nbsp;  
 ### 线程类
 <div name="thread1">线程休眠指定时间</div>
-```javascript
+  ```javascript
 const sleep = (time) => {
     return new Promise(resolve => {
         setTimeout(resolve, time);
