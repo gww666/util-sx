@@ -1,14 +1,14 @@
 ### 常用方法整理
 * 日期类
-    * <a href="#date1">时间戳格式化为yy-mm-dd hh-mm-ss格式</a>
+    * [时间戳格式化为yy-mm-dd hh-mm-ss格式](#时间戳格式化为yy-mm-dd hh-mm-ss格式)
 * 线程类
-    * <a href="#thread1">线程休眠指定时间</a>
+    * [线程休眠指定时间](#线程休眠指定时间)
 &nbsp;&nbsp;  
 &nbsp;&nbsp;  
 &nbsp;&nbsp;  
 &nbsp;&nbsp;  
 ### 日期类
-<div name="date1">时间戳格式化为yy-mm-dd hh-mm-ss格式</div>
+#### 时间戳格式化为yy-mm-dd hh-mm-ss格式
   ```javascript
 const formatDate = (time) => {
     if (typeof time === "string") time = Number(time);
@@ -24,7 +24,7 @@ const formatDate = (time) => {
 &nbsp;&nbsp;  
 &nbsp;&nbsp;  
 ### 线程类
-<div name="thread1">线程休眠指定时间</div>
+#### 线程休眠指定时间
   ```javascript
 const sleep = (time) => {
     return new Promise(resolve => {
