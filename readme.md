@@ -8,7 +8,7 @@
 &nbsp;&nbsp;  
 &nbsp;&nbsp;  
 ### 日期类
-#### 时间戳格式化为yy-mm-ddnbsp;hh-mm-ss格式
+#### 时间戳格式化为yy-mm-dd&nbsp;hh-mm-ss格式
   ```javascript
 const formatDate = (time) => {
     if (typeof time === "string") time = Number(time);
